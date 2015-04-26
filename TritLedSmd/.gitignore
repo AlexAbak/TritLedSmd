@@ -1,0 +1,5 @@
+# KiCad
+_autosave*
+*.bak
+*cache.lib
+*.kicad_pcb-bak
