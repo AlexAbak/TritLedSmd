@@ -199,12 +199,12 @@ $Comp
 L CONN_01X02 P1
 U 1 1 553CA317
 P 2750 2200
-F 0 "P1" H 2750 2350 50  0000 C CNN
+F 0 "P1" H 2750 2050 50  0000 C CNN
 F 1 "Power" V 2850 2200 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Angled_1x02" H 2750 2200 60  0001 C CNN
 F 3 "" H 2750 2200 60  0000 C CNN
 	1    2750 2200
-	-1   0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L CONN_01X01 P2

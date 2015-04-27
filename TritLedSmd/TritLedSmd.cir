@@ -1,18 +1,18 @@
-* EESchema Netlist Version 1.1 (Spice format) creation date: Вс. 26 апр. 2015 17:44:57
+* EESchema Netlist Version 1.1 (Spice format) creation date: 27.04.2015 15:54:43
 
 * To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
 * To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
 
 *Sheet Name:/
-U1  Net-_R4-Pad2_ Net-_R1-Pad2_ Net-_P2-Pad1_ Net-_P1-Pad2_ Net-_R2-Pad2_ Net-_P2-Pad1_ Net-_R5-Pad2_ Net-_D1-Pad1_ LM393		
+U1  Net-_R4-Pad2_ Net-_R1-Pad2_ Net-_P2-Pad1_ Net-_P1-Pad1_ Net-_R2-Pad2_ Net-_P2-Pad1_ Net-_R5-Pad2_ Net-_D1-Pad1_ LM393		
 R4  Net-_D1-Pad2_ Net-_R4-Pad2_ 220Ω		
 R5  Net-_D2-Pad2_ Net-_R5-Pad2_ 220Ω		
 D1  Net-_D1-Pad1_ Net-_D1-Pad2_ -		
 D2  Net-_D1-Pad1_ Net-_D2-Pad2_ +		
 R1  Net-_D1-Pad1_ Net-_R1-Pad2_ 4.7KΩ		
 R2  Net-_R1-Pad2_ Net-_R2-Pad2_ 4.7KΩ		
-R3  Net-_R2-Pad2_ Net-_P1-Pad2_ 4.7KΩ		
-P1  Net-_D1-Pad1_ Net-_P1-Pad2_ Power		
+R3  Net-_R2-Pad2_ Net-_P1-Pad1_ 4.7KΩ		
+P1  Net-_P1-Pad1_ Net-_D1-Pad1_ Power		
 P2  Net-_P2-Pad1_ In		
 
 .end
